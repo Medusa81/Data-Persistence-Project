@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 using TMPro;
 #if UNITY_EDITOR
 	using UnityEditor;
@@ -18,7 +15,6 @@ public class GameManager : MonoBehaviour
 	public string highScoreName;
 	public GameObject changeName, changeUserButton;
 	public TextMeshProUGUI currentUser, currentHighscore;
-	//public GameObject userNameField;
 	public TMP_InputField userNameField;
 	
 	void Awake()
